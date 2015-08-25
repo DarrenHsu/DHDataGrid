@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CA745B81B8BFEE900A9F879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745B71B8BFEE900A9F879 /* main.m */; };
+		8CA745BB1B8BFEE900A9F879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745BA1B8BFEE900A9F879 /* AppDelegate.m */; };
+		8CA745BE1B8BFEE900A9F879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745BD1B8BFEE900A9F879 /* ViewController.m */; };
+		8CA745C11B8BFEE900A9F879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA745BF1B8BFEE900A9F879 /* Main.storyboard */; };
+		8CA745C31B8BFEE900A9F879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA745C21B8BFEE900A9F879 /* Images.xcassets */; };
+		8CA745C61B8BFEE900A9F879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CA745C41B8BFEE900A9F879 /* LaunchScreen.xib */; };
+		8CA745D21B8BFEE900A9F879 /* DHDataGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745D11B8BFEE900A9F879 /* DHDataGridTests.m */; };
+		8CA745F01B8C003700A9F879 /* DHDataGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745DD1B8C003700A9F879 /* DHDataGridCell.m */; };
+		8CA745F11B8C003700A9F879 /* DHDataGridContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745DF1B8C003700A9F879 /* DHDataGridContentView.m */; };
+		8CA745F21B8C003700A9F879 /* DHDataGridHorizontalRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745E11B8C003700A9F879 /* DHDataGridHorizontalRow.m */; };
+		8CA745F31B8C003700A9F879 /* DHDataGridLeftHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745E31B8C003700A9F879 /* DHDataGridLeftHeaderView.m */; };
+		8CA745F41B8C003700A9F879 /* DHDataGridLeftSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745E51B8C003700A9F879 /* DHDataGridLeftSideView.m */; };
+		8CA745F51B8C003700A9F879 /* DHDataGridRightHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745E71B8C003700A9F879 /* DHDataGridRightHeaderView.m */; };
+		8CA745F61B8C003700A9F879 /* DHDataGridRightSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745E91B8C003700A9F879 /* DHDataGridRightSideView.m */; };
+		8CA745F71B8C003700A9F879 /* DHDataGridVerticalRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745EB1B8C003700A9F879 /* DHDataGridVerticalRow.m */; };
+		8CA745F81B8C003700A9F879 /* DHDataGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745ED1B8C003700A9F879 /* DHDataGridView.m */; };
+		8CA745F91B8C003700A9F879 /* DHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA745EF1B8C003700A9F879 /* DHScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CA745CC1B8BFEE900A9F879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CA745AA1B8BFEE900A9F879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CA745B11B8BFEE900A9F879;
+			remoteInfo = DHDataGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CA745B21B8BFEE900A9F879 /* DHDataGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHDataGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA745B61B8BFEE900A9F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA745B71B8BFEE900A9F879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CA745B91B8BFEE900A9F879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CA745BA1B8BFEE900A9F879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CA745BC1B8BFEE900A9F879 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CA745BD1B8BFEE900A9F879 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CA745C01B8BFEE900A9F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CA745C21B8BFEE900A9F879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CA745C51B8BFEE900A9F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CA745CB1B8BFEE900A9F879 /* DHDataGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHDataGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA745D01B8BFEE900A9F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA745D11B8BFEE900A9F879 /* DHDataGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDataGridTests.m; sourceTree = "<group>"; };
+		8CA745DC1B8C003700A9F879 /* DHDataGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridCell.h; sourceTree = "<group>"; };
+		8CA745DD1B8C003700A9F879 /* DHDataGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridCell.m; sourceTree = "<group>"; };
+		8CA745DE1B8C003700A9F879 /* DHDataGridContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridContentView.h; sourceTree = "<group>"; };
+		8CA745DF1B8C003700A9F879 /* DHDataGridContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridContentView.m; sourceTree = "<group>"; };
+		8CA745E01B8C003700A9F879 /* DHDataGridHorizontalRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridHorizontalRow.h; sourceTree = "<group>"; };
+		8CA745E11B8C003700A9F879 /* DHDataGridHorizontalRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridHorizontalRow.m; sourceTree = "<group>"; };
+		8CA745E21B8C003700A9F879 /* DHDataGridLeftHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridLeftHeaderView.h; sourceTree = "<group>"; };
+		8CA745E31B8C003700A9F879 /* DHDataGridLeftHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridLeftHeaderView.m; sourceTree = "<group>"; };
+		8CA745E41B8C003700A9F879 /* DHDataGridLeftSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridLeftSideView.h; sourceTree = "<group>"; };
+		8CA745E51B8C003700A9F879 /* DHDataGridLeftSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridLeftSideView.m; sourceTree = "<group>"; };
+		8CA745E61B8C003700A9F879 /* DHDataGridRightHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridRightHeaderView.h; sourceTree = "<group>"; };
+		8CA745E71B8C003700A9F879 /* DHDataGridRightHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridRightHeaderView.m; sourceTree = "<group>"; };
+		8CA745E81B8C003700A9F879 /* DHDataGridRightSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridRightSideView.h; sourceTree = "<group>"; };
+		8CA745E91B8C003700A9F879 /* DHDataGridRightSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridRightSideView.m; sourceTree = "<group>"; };
+		8CA745EA1B8C003700A9F879 /* DHDataGridVerticalRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridVerticalRow.h; sourceTree = "<group>"; };
+		8CA745EB1B8C003700A9F879 /* DHDataGridVerticalRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridVerticalRow.m; sourceTree = "<group>"; };
+		8CA745EC1B8C003700A9F879 /* DHDataGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDataGridView.h; sourceTree = "<group>"; };
+		8CA745ED1B8C003700A9F879 /* DHDataGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDataGridView.m; sourceTree = "<group>"; };
+		8CA745EE1B8C003700A9F879 /* DHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScrollView.h; sourceTree = "<group>"; };
+		8CA745EF1B8C003700A9F879 /* DHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CA745AF1B8BFEE900A9F879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA745C81B8BFEE900A9F879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CA745A91B8BFEE900A9F879 = {
+			isa = PBXGroup;
+			children = (
+				8CA745B41B8BFEE900A9F879 /* DHDataGrid */,
+				8CA745CE1B8BFEE900A9F879 /* DHDataGridTests */,
+				8CA745B31B8BFEE900A9F879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA745B31B8BFEE900A9F879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745B21B8BFEE900A9F879 /* DHDataGrid.app */,
+				8CA745CB1B8BFEE900A9F879 /* DHDataGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CA745B41B8BFEE900A9F879 /* DHDataGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745DB1B8C003700A9F879 /* DHDataGrid */,
+				8CA745B91B8BFEE900A9F879 /* AppDelegate.h */,
+				8CA745BA1B8BFEE900A9F879 /* AppDelegate.m */,
+				8CA745BC1B8BFEE900A9F879 /* ViewController.h */,
+				8CA745BD1B8BFEE900A9F879 /* ViewController.m */,
+				8CA745BF1B8BFEE900A9F879 /* Main.storyboard */,
+				8CA745C21B8BFEE900A9F879 /* Images.xcassets */,
+				8CA745C41B8BFEE900A9F879 /* LaunchScreen.xib */,
+				8CA745B51B8BFEE900A9F879 /* Supporting Files */,
+			);
+			path = DHDataGrid;
+			sourceTree = "<group>";
+		};
+		8CA745B51B8BFEE900A9F879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745B61B8BFEE900A9F879 /* Info.plist */,
+				8CA745B71B8BFEE900A9F879 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CA745CE1B8BFEE900A9F879 /* DHDataGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745D11B8BFEE900A9F879 /* DHDataGridTests.m */,
+				8CA745CF1B8BFEE900A9F879 /* Supporting Files */,
+			);
+			path = DHDataGridTests;
+			sourceTree = "<group>";
+		};
+		8CA745CF1B8BFEE900A9F879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745D01B8BFEE900A9F879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CA745DB1B8C003700A9F879 /* DHDataGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8CA745DC1B8C003700A9F879 /* DHDataGridCell.h */,
+				8CA745DD1B8C003700A9F879 /* DHDataGridCell.m */,
+				8CA745DE1B8C003700A9F879 /* DHDataGridContentView.h */,
+				8CA745DF1B8C003700A9F879 /* DHDataGridContentView.m */,
+				8CA745E01B8C003700A9F879 /* DHDataGridHorizontalRow.h */,
+				8CA745E11B8C003700A9F879 /* DHDataGridHorizontalRow.m */,
+				8CA745E21B8C003700A9F879 /* DHDataGridLeftHeaderView.h */,
+				8CA745E31B8C003700A9F879 /* DHDataGridLeftHeaderView.m */,
+				8CA745E41B8C003700A9F879 /* DHDataGridLeftSideView.h */,
+				8CA745E51B8C003700A9F879 /* DHDataGridLeftSideView.m */,
+				8CA745E61B8C003700A9F879 /* DHDataGridRightHeaderView.h */,
+				8CA745E71B8C003700A9F879 /* DHDataGridRightHeaderView.m */,
+				8CA745E81B8C003700A9F879 /* DHDataGridRightSideView.h */,
+				8CA745E91B8C003700A9F879 /* DHDataGridRightSideView.m */,
+				8CA745EA1B8C003700A9F879 /* DHDataGridVerticalRow.h */,
+				8CA745EB1B8C003700A9F879 /* DHDataGridVerticalRow.m */,
+				8CA745EC1B8C003700A9F879 /* DHDataGridView.h */,
+				8CA745ED1B8C003700A9F879 /* DHDataGridView.m */,
+				8CA745EE1B8C003700A9F879 /* DHScrollView.h */,
+				8CA745EF1B8C003700A9F879 /* DHScrollView.m */,
+			);
+			path = DHDataGrid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CA745B11B8BFEE900A9F879 /* DHDataGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA745D51B8BFEE900A9F879 /* Build configuration list for PBXNativeTarget "DHDataGrid" */;
+			buildPhases = (
+				8CA745AE1B8BFEE900A9F879 /* Sources */,
+				8CA745AF1B8BFEE900A9F879 /* Frameworks */,
+				8CA745B01B8BFEE900A9F879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHDataGrid;
+			productName = DHDataGrid;
+			productReference = 8CA745B21B8BFEE900A9F879 /* DHDataGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CA745CA1B8BFEE900A9F879 /* DHDataGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA745D81B8BFEE900A9F879 /* Build configuration list for PBXNativeTarget "DHDataGridTests" */;
+			buildPhases = (
+				8CA745C71B8BFEE900A9F879 /* Sources */,
+				8CA745C81B8BFEE900A9F879 /* Frameworks */,
+				8CA745C91B8BFEE900A9F879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CA745CD1B8BFEE900A9F879 /* PBXTargetDependency */,
+			);
+			name = DHDataGridTests;
+			productName = DHDataGridTests;
+			productReference = 8CA745CB1B8BFEE900A9F879 /* DHDataGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CA745AA1B8BFEE900A9F879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = D.H.;
+				TargetAttributes = {
+					8CA745B11B8BFEE900A9F879 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8CA745CA1B8BFEE900A9F879 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8CA745B11B8BFEE900A9F879;
+					};
+				};
+			};
+			buildConfigurationList = 8CA745AD1B8BFEE900A9F879 /* Build configuration list for PBXProject "DHDataGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CA745A91B8BFEE900A9F879;
+			productRefGroup = 8CA745B31B8BFEE900A9F879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA745B11B8BFEE900A9F879 /* DHDataGrid */,
+				8CA745CA1B8BFEE900A9F879 /* DHDataGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA745B01B8BFEE900A9F879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA745C11B8BFEE900A9F879 /* Main.storyboard in Resources */,
+				8CA745C61B8BFEE900A9F879 /* LaunchScreen.xib in Resources */,
+				8CA745C31B8BFEE900A9F879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA745C91B8BFEE900A9F879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA745AE1B8BFEE900A9F879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA745F71B8C003700A9F879 /* DHDataGridVerticalRow.m in Sources */,
+				8CA745F81B8C003700A9F879 /* DHDataGridView.m in Sources */,
+				8CA745BE1B8BFEE900A9F879 /* ViewController.m in Sources */,
+				8CA745F51B8C003700A9F879 /* DHDataGridRightHeaderView.m in Sources */,
+				8CA745F91B8C003700A9F879 /* DHScrollView.m in Sources */,
+				8CA745F41B8C003700A9F879 /* DHDataGridLeftSideView.m in Sources */,
+				8CA745BB1B8BFEE900A9F879 /* AppDelegate.m in Sources */,
+				8CA745F01B8C003700A9F879 /* DHDataGridCell.m in Sources */,
+				8CA745F21B8C003700A9F879 /* DHDataGridHorizontalRow.m in Sources */,
+				8CA745B81B8BFEE900A9F879 /* main.m in Sources */,
+				8CA745F11B8C003700A9F879 /* DHDataGridContentView.m in Sources */,
+				8CA745F31B8C003700A9F879 /* DHDataGridLeftHeaderView.m in Sources */,
+				8CA745F61B8C003700A9F879 /* DHDataGridRightSideView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA745C71B8BFEE900A9F879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA745D21B8BFEE900A9F879 /* DHDataGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CA745CD1B8BFEE900A9F879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CA745B11B8BFEE900A9F879 /* DHDataGrid */;
+			targetProxy = 8CA745CC1B8BFEE900A9F879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CA745BF1B8BFEE900A9F879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA745C01B8BFEE900A9F879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CA745C41B8BFEE900A9F879 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA745C51B8BFEE900A9F879 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CA745D31B8BFEE900A9F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CA745D41B8BFEE900A9F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CA745D61B8BFEE900A9F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHDataGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA745D71B8BFEE900A9F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHDataGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CA745D91B8BFEE900A9F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DHDataGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHDataGrid.app/DHDataGrid";
+			};
+			name = Debug;
+		};
+		8CA745DA1B8BFEE900A9F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DHDataGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHDataGrid.app/DHDataGrid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA745AD1B8BFEE900A9F879 /* Build configuration list for PBXProject "DHDataGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA745D31B8BFEE900A9F879 /* Debug */,
+				8CA745D41B8BFEE900A9F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA745D51B8BFEE900A9F879 /* Build configuration list for PBXNativeTarget "DHDataGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA745D61B8BFEE900A9F879 /* Debug */,
+				8CA745D71B8BFEE900A9F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CA745D81B8BFEE900A9F879 /* Build configuration list for PBXNativeTarget "DHDataGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA745D91B8BFEE900A9F879 /* Debug */,
+				8CA745DA1B8BFEE900A9F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CA745AA1B8BFEE900A9F879 /* Project object */;
+}
