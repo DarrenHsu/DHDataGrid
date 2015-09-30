@@ -57,7 +57,7 @@
                                                      leftHeaderNames:lContentKeys
                                                         leftContents:leftContents
                                                     rightHeaderCName:[NSMutableArray arrayWithArray:rightHeaders]
-                                                 rightSideCellWeight:100
+                                                 rightSideCellWeight:200
                                                     rightHeaderNames:[NSMutableArray arrayWithArray:rContentKeys]
                                                        rightContents:rightContents
                                                     hiddenIndexArray:nil];
