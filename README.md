@@ -4,7 +4,7 @@ This is a iOS example, that can display multiple document data, and provide info
 Record
 
 1，這是一個記錄您在行進間的距離、時間、時速、等相關資訊。
-2，提供目前 yahoo 天氣資訊，但目前 yahoo api 已改版，所以無法得到相關資訊。
+2，提供目前 Yahoo 天氣資訊，但目前 Yahoo Weather API 已改版，所以無法得到相關資訊。
 
 Compass
 
